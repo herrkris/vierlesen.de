@@ -480,6 +480,9 @@ footer {
 .impressum a {
     color: #2c5d3f;
     text-decoration: none;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow-wrap: break-word;
 }
 
 .impressum a:hover {
