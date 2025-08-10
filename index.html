@@ -1,25 +1,154 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Das Münchner Buchbloggerinnenkollektiv: @primabrause.liest @booklex2022 @eva.umea @dielesejule – Ein Kollektiv • Ein Kontakt • Vier Blicke ins Buch">
+    <meta name="description" content="VIERLESEN - Das Münchner Buchbloggerinnenkollektiv. Drei erfahrene Bloggerinnen bieten authentische Buchbewertungen, Rezensionen und Marketingunterstützung für Verlage und Buchmessen.">
+    <meta name="keywords" content="Buchblogger, Buchrezensionen, Verlagskooperation, Buchmesse, München, Literatur, Buchmarketing">
     <link rel="stylesheet" href="css/style.css">
-    <title>Das Münchner Buchbloggerinnenkollektiv: Vierlesen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>VIERLESEN - Professionelles Münchner Buchbloggerinnenkollektiv</title>
 </head>
 <body>
-    <main>
-    <img src="css/vierlesen.logo.grün.png" alt="Logo von Vierlesen" width="120" />
-    <h2>Impressum</h2>
-    <p><strong>VIERLESEN</strong><br />
-        Alexandra Schön<br>Eva Dreier<br>
-        Gabi Glück</p>
-    <p><strong>Postanschrift:</strong><br>
-        Gabi Glück<br>
-        Ehrengutstr. 17<br />80469 München</p>
-    <p>Telefon: Auf Anfrage<br />
-    E-Mail: <a href="mailto:vierlesen@gmx.de">vierlesen@gmx.de</a><br />
-    </p>
-</main>
+    <header>
+        <div class="container">
+            <div class="logo-section">
+                <img src="images/vierlesen.logo.grün.png" alt="VIERLESEN Logo" class="logo" />
+                <p class="tagline">Das Münchner Buchbloggerinnenkollektiv</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h2>Ein Kollektiv • Ein Kontakt • Viele Blicke ins Buch</h2>
+            <p class="lead">Als Buchbloggerinnenkollektiv <a href="https://www.instagram.com/vierlesen/" target="_blank" class="instagram-link">@vierlesen</a> posten wir wöchentlich auf Instagram, sowie für zusätzliche Reichweite auch auf unseren Einzelaccounts <a href="https://www.instagram.com/primabrause.liest/" target="_blank" class="instagram-link">@primabrause.liest</a>, <a href="https://www.instagram.com/booklex2022/" target="_blank" class="instagram-link">@booklex2022</a> und <a href="https://www.instagram.com/eva.umea/" target="_blank" class="instagram-link">@eva.umea</a> über Neuerscheinungen und Herzensbücher. Wir fokussieren uns insbesondere auf die Charaktere, die Sprache und unsere Lieblingsdetails in den Büchern und erarbeiten unsere Rezensionen individuell und mühevoll.</p>
+        </section>
+
+        <section class="team">
+            <h3>Das sind wir</h3>
+            <div class="team-photo">
+                <div class="slideshow-container">
+                    <div class="slide active">
+                        <img src="images/das-sind-wir.jpg" alt="Das VIERLESEN Kollektiv - Eva, Alexandra und Gabi" class="team-image" />
+                    </div>
+                    <div class="slide">
+                        <img src="images/das-sind-wir-2.JPG" alt="Das VIERLESEN Kollektiv - Eva, Alexandra und Gabi" class="team-image" />
+                    </div>
+                    <div class="slide-indicators">
+                        <span class="indicator active" onclick="currentSlide(1)"></span>
+                        <span class="indicator" onclick="currentSlide(2)"></span>
+                    </div>
+                </div>
+                <p class="team-caption">Das VIERLESEN Kollektiv: Eva, Alexandra und Gabi</p>
+            </div>
+            <div class="team-grid">
+                <a href="https://www.instagram.com/eva.umea/" target="_blank" class="team-member-link">
+                    <div class="team-member">
+                        <h4>Eva Dreier</h4>
+                        <p class="handle">@eva.umea</p>
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/booklex2022/" target="_blank" class="team-member-link">
+                    <div class="team-member">
+                        <h4>Alexandra Schön</h4>
+                        <p class="handle">@booklex2022</p>
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/primabrause.liest/" target="_blank" class="team-member-link">
+                    <div class="team-member">
+                        <h4>Gabi Glück</h4>
+                        <p class="handle">@primabrause.liest</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h3>Kontakt & Kooperationen</h3>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h4>Geschäftliche Anfragen</h4>
+                    <p class="contact-item">
+                        <strong>E-Mail:</strong> 
+                        <a href="mailto:vierlesen@gmx.de" class="contact-link">vierlesen@gmx.de</a>
+                    </p>
+                    <p class="contact-item">
+                        <strong>Telefon:</strong> Auf Anfrage
+                    </p>
+                    <p class="contact-item">
+                        <strong>Postanschrift:</strong><br>
+                        VIERLESEN<br>
+                        G. Glück, A. Schön, E. Dreier<br>
+                        Ehrengutstr. 17<br>
+                        80469 München
+                    </p>
+                </div>
+                <div class="contact-cta">
+                    <h4>Bereit für eine Kooperation?</h4>
+                    <a href="mailto:vierlesen@gmx.de?subject=Kooperationsanfrage" class="cta-button">Jetzt anfragen</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>VIERLESEN</h4>
+                    <p>Das Münchner Buchbloggerinnenkollektiv</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Folgt uns auf Instagram</h4>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/vierlesen/" target="_blank" class="instagram-link">@vierlesen</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Rechtliches</h4>
+                    <a href="impressum.html" class="footer-link">Impressum</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        let slideIndex = 1;
+        
+        function changeSlide(n) {
+            showSlide(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+            showSlide(slideIndex = n);
+        }
+        
+        function showSlide(n) {
+            const slides = document.getElementsByClassName('slide');
+            const indicators = document.getElementsByClassName('indicator');
+            
+            if (n > slides.length) { slideIndex = 1; }
+            if (n < 1) { slideIndex = slides.length; }
+            
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].classList.remove('active');
+            }
+            
+            for (let i = 0; i < indicators.length; i++) {
+                indicators[i].classList.remove('active');
+            }
+            
+            slides[slideIndex - 1].classList.add('active');
+            indicators[slideIndex - 1].classList.add('active');
+        }
+        
+        // Auto-advance slideshow every 5 seconds
+        setInterval(function() {
+            changeSlide(1);
+        }, 5000);
+    </script>
 </body>
 </html>
